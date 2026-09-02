@@ -20,24 +20,34 @@ public class AirportTest {
             switch (num) {
                 case 1:
                     service.Task1(plane1);
+                    break;
                 case 2:
                     service.Task2(plane2);
+                    break;
                 case 3:
                     service.Task3(plane3, plane1);
+                    break;
                 case 4:
                     service.Task4(plane2, plane3);
+                    break;
                 case 5:
                     service.Task5(plane1, plane2, plane3);
+                    break;
                 case 6:
                     service.Task6(planes);
+                    break;
                 case 7:
                     service.Task7(planes);
+                    break;
                 case 8:
                     service.Task8(planes);
+                    break;
                 case 9:
                     service.Task9(planes);
+                    break;
                 case 10:
                     service.Task10(planes);
+                    break;
 
 
             }
